@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
   styleUrl: './dashboard.component.css'
 })
 export class DashboardComponent {
+    title:string = "ICET New";
 
+    changeTitle(){
+      this.title="ICETV2";
+    }
 }
